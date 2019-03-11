@@ -61,6 +61,6 @@ def buildFeatureStatement(tree):
     # a list of names and builds the FOPC associated with any adjectives it finds
 
 ##### Your code to findAndAssertFeaturesFOPC here -- this takes the root and your names
-    core.findAndAssertFeatures(root,objects)
+    core.findAndAssertFeaturesFOPC(root,objects)
 ##### Your code to findAndAssertDefinitionsFOPC -- this takes the root and your names
     core.findAndAssertDefinitionsFOPC(root,objects)
